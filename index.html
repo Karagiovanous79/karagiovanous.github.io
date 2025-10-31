@@ -1,1 +1,75 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Το Portfolio μου</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- AOS (Scroll animations) -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="overlay"></div>
+    <div class="hero-content" data-aos="fade-up">
+      <h1>Γεια σου, είμαι <span class="highlight">YourName</span></h1>
+      <p>Web Developer • Designer • Dreamer</p>
+      <a href="#projects" class="btn">Δες τα Projects μου</a>
+    </div>
+  </header>
+
+  <!-- About -->
+  <section id="about" data-aos="fade-up">
+    <h2>Λίγα λόγια για μένα</h2>
+    <p>
+      Είμαι προγραμματιστής που λατρεύει το design, τα animations και τη δημιουργία εμπειριών στο web.
+    </p>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <h2 data-aos="fade-up">Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card" data-aos="zoom-in">
+        <img src="https://source.unsplash.com/600x400/?web,design" alt="Project 1" />
+        <h3>Project One</h3>
+        <p>Ένα παράδειγμα web app με ωραίο UI.</p>
+      </div>
+      <div class="project-card" data-aos="zoom-in" data-aos-delay="150">
+        <img src="https://source.unsplash.com/600x400/?code,app" alt="Project 2" />
+        <h3>Project Two</h3>
+        <p>Frontend demo με animations και responsive layout.</p>
+      </div>
+      <div class="project-card" data-aos="zoom-in" data-aos-delay="300">
+        <img src="https://source.unsplash.com/600x400/?website,development" alt="Project 3" />
+        <h3>Project Three</h3>
+        <p>Minimal portfolio με GSAP transitions.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" data-aos="fade-up">
+    <h2>Επικοινωνία</h2>
+    <p>Στείλε μου μήνυμα στο <a href="mailto:you@example.com">you@example.com</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 YourName | Designed with ❤️</p>
+  </footer>
+
+  <!-- JS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
 
