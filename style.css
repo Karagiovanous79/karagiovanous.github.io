@@ -18,6 +18,17 @@ h1, h2, h3 {
   color: #fff;
 }
 
+a[href^="mailto:"] {
+  color: #00bfff;       /* φωτεινό μπλε για να ξεχωρίζει */
+  text-decoration: underline;
+  transition: color 0.3s;
+}
+
+a[href^="mailto:"]:hover {
+  color: #00ffea;       /* πιο έντονο μπλε/τιρκουάζ όταν περνάς πάνω */
+}
+
+
 section {
   padding: 80px 10%;
   text-align: center;
